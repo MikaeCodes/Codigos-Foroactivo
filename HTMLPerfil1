@@ -1,0 +1,126 @@
+/*Perfil*/
+#mikae-caja {
+padding: 10px;
+margin: 5px;
+background-color: #fff;
+border: 1px solid #e0e0e0;
+width: 250px;
+}
+/*rango del perfil*/
+.mika-rango img {
+      min-width: 250px;
+  max-width: 250px;
+}
+/*caja de catos*/
+#dato-post {
+    background-color: #f1f1f1;
+    border: 1px solid #e0e0e0;
+    font-family: karla;
+    font-size: 8px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    margin-bottom: 5px;
+    padding: 3px;
+    text-transform: uppercase;
+    width: 175px;
+}
+/*hover*/
+#mikae-caja:hover .mikae-holi{
+    top: -350px;transition: all .6s ease-in-out;
+}
+.mikae-holi {
+    background: #fafafa;
+    background-image: url(http://65.media.tumblr.com/feb9781f08ff1f4335ce64164ec6bdcc/tumblr_n7gg1ehJbh1rmzx9io1_250.png);
+    border: 1px solid #ddd;
+    height: 200px;opacity: 0.8;
+    left: 20px;
+    margin: 0;
+    padding: 20px;
+    position: relative;
+    top: -700px;
+    transition: all .6s ease-in-out;
+    width: 160px;
+}
+#mikae-caja:hover #mikae-ava2 img  {
+filter: blur(5px) grayscale(100%);
+    -webkit-filter: blur(2px);
+    -moz-filter: blur(2px);
+    -o-filter: blur(2px);
+    -ms-filter: blur(2px);transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    -webkit-transition: all 0.6s ease-in-out;
+    -ms-transition: all 0.6s ease-in-out;
+    -o-transition: all 0.6s ease-in-out;
+}
+/*tamaño del avatar*/
+#mikae-ava2 img { 
+      min-height: 400px!important;
+    max-height: 400px!important;
+    max-width: 250px!important;
+    min-width: 250px!important;
+}
+/*nombre*/
+#mikae-name {
+font: 14px Montserrat;
+letter-spacing: 1px;
+color: #fff;
+text-align: right;
+padding: 20px;
+text-transform: uppercase;
+background:#000;
+}
+/*caja avatar*/
+.mikae-ava {
+width: 250px;
+height: 400px;
+position: relative;
+overflow: hidden;transition: all 0.6s ease-in-out;
+}
+/*rango escrito*/
+#mikae-name sub {
+    color: #fff;
+    font: 8px karla;
+    text-transform: uppercase;
+    text-align: right;
+    border-top: 1px solid #fff;
+    letter-spacing: 2px;
+    display: block;
+    padding-top: 3px;
+}
+#mikae-caja .mikae-cont {
+    -moz-transition: all .6s ease-in-out;
+    -ms-transition: all .6s ease-in-out;
+    -o-transition: all .6s ease-in-out;
+    -webkit-transition: all .6s ease-in-out;
+    bottom: -350px;
+    left: 20px;
+    padding: 10px;
+    position: absolute;
+    transition: all .6s ease-in-out;
+    width: 180px;
+}
+#mikae-caja:hover .mikae-cont {
+    bottom: 80px;
+}
+/*post*/
+p.author {
+    background: #1e1c1f;
+    width: 100%;
+    display: table;
+    padding: 10px;
+    font-family: verdana;
+    font-size: 7px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+}
+.postbody {
+    clear: both;
+    color: #6b6b6b;
+    float: right;
+    line-height: 1.48em;
+    padding: 0;
+    width: 76%; /*editar segun su foro el ancho del post*/
+}
