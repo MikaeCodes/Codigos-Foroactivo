@@ -1,0 +1,22 @@
+.exp-cuerpo{width:500px;background: linear-gradient(60deg, #f4ca9f, #eeb3a7, #e3a5b6, #dbb6e1, #a5b5d6, #a7cad0, #92c3bc, #b8ddc2);background-size: 800% 800%; -webkit-animation: AnimationName 4s ease infinite;padding-bottom:5px;-moz-animation: AnimationName 4s ease infinite;-o-animation: AnimationName 4s ease infinite;animation: AnimationName 4s ease infinite;}.exp-ima {background-size: cover;width:238px;height:430px;margin:5px;background-image:url(https://danbooru.donmai.us/data/sample/__i_19_kantai_collection_drawn_by_ebifurya__sample-85fb83d594c4012da83246a25f0b54d0.jpg);border:1px solid #fff;overflow:hidden;}.exp-cuerpo span {text-align:center;border-bottom:1px solid #ddd;display:block;font-size:11px;}.exp-cuerpo h3 {  font-size: 9px;background: linear-gradient(60deg, #f4ca9f, #eeb3a7, #e3a5b6, #dbb6e1, #a5b5d6, #a7cad0, #92c3bc, #b8ddc2);padding: 2px;font-style: italic;letter-spacing: 3px;text-transform: uppercase;font-family: varela round;text-align: center;}
+#exp-datos {background: #fff;opacity:0.8;padding:10px;width:200px;height:210px;margin-top:190px;margin-left:8px; font-family: Varela Round;font-size: 10px;color: #444;text-align: justify;overflow: auto;}.exp-estruc { display: flex;}
+.exp-1 {padding: 30px;font-family: 'Varela Round', sans-serif;text-shadow: 1px 1px #fff;text-align: center;font-size: 8px;letter-spacing:1px;background: linear-gradient(60deg, #f4ca9f, #eeb3a7, #e3a5b6, #dbb6e1, #a5b5d6, #a7cad0, #92c3bc, #b8ddc2);animation: animatedgradient 3s ease alternate infinite;text-transform: uppercase;color: #000;border-bottom: 1px solid #ececec;}#exp-2 {border: 1px solid #eee;width: 230px;margin:5px;height: 420px;padding: 5px;}#exp-4 {width: 200px;height: 390px;padding: 15px;background-color: #eee;font-family: Varela Round;font-size: 10px;color: #444;text-shadow: 1px 1px #fff;text-align: justify;line-height: 10px;overflow: auto;}@-webkit-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 69%}
+    50%{background-position:100% 32%}
+    100%{background-position:0% 69%}
+}
